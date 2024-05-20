@@ -19,10 +19,8 @@ export const GlobalStye = createGlobalStyle`
  }
 
 body, input, button, textarea {
-  /* font family
-    weight: 
-    size
-  */
-
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  font-weight: 400px;
 }
 `
