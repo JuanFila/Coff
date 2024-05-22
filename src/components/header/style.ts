@@ -9,7 +9,7 @@ export const HeaderContainer = styled.header `
   padding: 2rem 10rem;
 `
 
-export const BoxShop = styled.div `
+export const BoxShop = styled.nav `
   display: flex;
   gap: 12px;
 `
