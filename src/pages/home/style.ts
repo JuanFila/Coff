@@ -1,16 +1,19 @@
 import styled from "styled-components";
 
-export const Container = styled.section `
+export const Container = styled.section`
+  width: 100%;
+  
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 
   padding: 5.75rem 10rem;
+  
 
   gap: 56px;
 
 `
-export const ContentText = styled.div `
+export const ContentText = styled.div`
   max-width: 36.75rem;
   height: auto;
 
@@ -22,12 +25,18 @@ export const ContentText = styled.div `
     margin-bottom: 1rem;
   }
 
-  p {
+ 
+`
+export const Text = styled.p`
     font-size: 1.375rem;
     margin-bottom: 4.125rem;
-  }
+`
+export const ContentImg = styled.div`
+  max-width: 29.75rem;
 `
 
-export const ContentImg = styled.div `
-  max-width: 29.75rem
+export const GridContainer = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
 `

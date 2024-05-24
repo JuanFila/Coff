@@ -30,6 +30,8 @@ export const Locale = styled.div `
   border-radius: 6px;
   background: ${props => props.theme['purple-light']};
 
+  gap: 4px;
+
   display: flex;
   align-items: center;
   justify-content: center;
