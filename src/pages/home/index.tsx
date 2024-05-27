@@ -1,14 +1,15 @@
 import { Header } from "../../components/header";
 import CoffeeImage from "../../assets/Coffee.svg";
 import { Tag } from "../../components/Tags";
-import { Container, ContentImg, ContentText, GridContainer, Text } from "./style";
+import { Container, ContainerSection, ContentImg, ContentText, GridContainer, Section, Text } from "./style";
 import { Coffee, Package, ShoppingCartSimple, Timer } from "@phosphor-icons/react";
-
+import { CardCoffee } from "../../components/CardCoffee";
+import Caffe1  from "../../assets/Type=Café_com_Leite.png";
 export function Home() {
   return (
-    <div>
+    <Container>
       <Header />
-      <Container>
+      <ContainerSection>
         <ContentText>
           <h1>Encontre o café perfeito para qualquer hora do dia</h1>
           <Text>Com o Coffee Delivery você recebe seu café onde estiver, a qualquer hora</Text>
@@ -23,7 +24,17 @@ export function Home() {
         <ContentImg>
           <img src={CoffeeImage} alt="" />
         </ContentImg>
-      </Container>
-    </div>
+      </ContainerSection>
+
+      <Section>
+        <h2>Nossos Cafés</h2>
+        <CardCoffee
+        price="9,99"
+        coffeeName="Café God"
+        coffeeDescription="Cafe"
+        img={{src: Caffe1, alt: "Café God"}}
+        />
+      </Section>
+    </Container>
   );
 }

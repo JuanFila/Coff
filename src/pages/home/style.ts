@@ -1,8 +1,13 @@
 import styled from "styled-components";
 
-export const Container = styled.section`
+export const Container = styled.div`
   width: 100%;
-  
+  display: flex;
+  flex-direction: column;
+
+`
+export const ContainerSection = styled.section`
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -39,4 +44,12 @@ export const GridContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
+`
+
+
+export const Section = styled.section`
+  width: 100%;
+  height: auto;
+  background-color: ${props => props.theme['yellow']};
+  padding: 2rem 10rem ;
 `
