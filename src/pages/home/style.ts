@@ -11,12 +11,8 @@ export const ContainerSection = styled.section`
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   padding: 5.75rem 10rem;
-  
-
   gap: 56px;
-
 `
 export const ContentText = styled.div`
   max-width: 36.75rem;
@@ -29,8 +25,6 @@ export const ContentText = styled.div`
 
     margin-bottom: 1rem;
   }
-
- 
 `
 export const Text = styled.p`
     font-size: 1.375rem;
@@ -39,17 +33,24 @@ export const Text = styled.p`
 export const ContentImg = styled.div`
   max-width: 29.75rem;
 `
-
 export const GridContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
 `
-
-
+export const Title = styled.h2`
+ font-family: "Roboto";
+ font-size: 2rem;
+ font-weight: bold;
+`
 export const Section = styled.section`
   width: 100%;
   height: auto;
-  background-color: ${props => props.theme['yellow']};
-  padding: 2rem 10rem ;
+ padding: 2rem 10rem ;   
 `
+export const GridTeste = styled.div`
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+`
+
