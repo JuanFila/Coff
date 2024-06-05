@@ -1,9 +1,7 @@
-import { ContainerTypeCoffee, TypeCoffeeText } from "./style";
-
-export function TypeCoffee() {
-  return (
-    <ContainerTypeCoffee>
-      <TypeCoffeeText>Teste</TypeCoffeeText>
-    </ContainerTypeCoffee>
-  );
+import { TypeCoffeeText } from "./style";
+interface TypeCoffee {
+  typeCoffee: string;
+}
+export function TypeCoffee({ typeCoffee }: TypeCoffee) {
+  return <TypeCoffeeText>{typeCoffee}</TypeCoffeeText>;
 }
