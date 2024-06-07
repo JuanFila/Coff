@@ -44,7 +44,8 @@ export const CoffeDescription = styled.p`
 export const ImageCoffee = styled.img`
     width: 7.5rem;
     position: relative;
-    bottom: 3rem;
+    bottom: 2rem;
+    margin-bottom: 0.5rem;
 
 `
 

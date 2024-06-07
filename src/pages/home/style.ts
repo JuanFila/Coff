@@ -39,9 +39,8 @@ export const GridContainer = styled.div`
   gap: 40px;
 `
 export const Title = styled.h2`
- font-family: "Roboto";
- font-size: 2rem;
- font-weight: bold;
+ font-family: "Baloo 2";
+ font-size: 2.3rem;
 `
 export const Section = styled.section`
   width: 100%;
