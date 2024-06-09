@@ -1,0 +1,121 @@
+
+{
+  "coffees": [
+    {
+      "id": "1",
+      "typeCoffee": [
+        "Tradicional"
+      ],
+      "price": "9,90",
+      "coffeeName": "Expresso Tradicional",
+      "coffeeDescription": "O tradicional café feito com água quente e grãos moídos",
+      "src": "/public/image/Expresso.png",
+      "alt": "Expresso Tradicional"
+    },
+    {
+      "id": "2",
+      "typeCoffee": [
+        "Tradicional"
+      ],
+      "price": "9,90",
+      "coffeeName": "Expresso Americano",
+      "coffeeDescription": "Expresso diluído, menos intenso que o tradicional",
+      "src": "/public/image/Type=Americano.png",
+      "alt": "Expresso Americano"
+    },
+    {
+      "id": "3",
+      "typeCoffee": [
+        "Tradicional"
+      ],
+      "price": "9,90",
+      "coffeeName": "Expresso Cremoso",
+      "coffeeDescription": "Café expresso tradicional com espuma cremosa",
+      "src": "/public/image/Type=ExpressoCremoso.png",
+      "alt": "Expresso Cremoso"
+    },
+    {
+      "id": "4",
+      "typeCoffee": [
+        "Tradicional",
+        "Gelado"
+      ],
+      "price": "9,90",
+      "coffeeName": "Expresso Gelado",
+      "coffeeDescription": "Bebida preparada com café expresso e cubos de gelo",
+      "src": "/public/image/CaféGelado.png",
+      "alt": "Café Gelado"
+    },
+    {
+      "id": "5",
+      "typeCoffee": [
+        "Tradicional",
+        "Com leite"
+      ],
+      "price": "9,90",
+      "coffeeName": "Mocassino",
+      "coffeeDescription": "Café expresso com calda de chocolate, pouco leite e espuma",
+      "src": "/public/image/Mochaccino.png",
+      "alt": "Mocassino"
+    },
+    {
+      "id": "6",
+      "typeCoffee": [
+        "Especial",
+        "Com leite"
+      ],
+      "price": "9,90",
+      "coffeeName": "Chocolate Quente",
+      "coffeeDescription": "Bebida feita com chocolate dissolvido no leite quente e café",
+      "src": "/public/image/ChocolateQuente.png",
+      "alt": "Chocolate Quente"
+    },
+    {
+      "id": "7",
+      "typeCoffee": [
+        "Especial",
+        "Álcoólico",
+        "Gelado"
+      ],
+      "price": "9,90",
+      "coffeeName": "Cubano",
+      "coffeeDescription": "Drink gelado de café expresso com rum, creme de leite e hortelã",
+      "src": "/public/image/Cubano.png",
+      "alt": "Cubano"
+    },
+    {
+      "id": "8",
+      "typeCoffee": [
+        "Especial"
+      ],
+      "price": "9,90",
+      "coffeeName": "Havaiano",
+      "coffeeDescription": "Bebida adocicada preparada com café e leite de coco",
+      "src": "/public/image/Havaiano.png",
+      "alt": "Havaiano"
+    },
+    {
+      "id": "9",
+      "typeCoffee": [
+        "Especial"
+      ],
+      "price": "9,90",
+      "coffeeName": "Árabe",
+      "coffeeDescription": "Bebida preparada com grãos de café árabe e especiarias",
+      "src": "/public/image/Árabe.png",
+      "alt": "Árabe"
+    },
+    {
+      "id": "10",
+      "typeCoffee": [
+        "Especial",
+        "Alcoólico"
+      ],
+      "price": "9,90",
+      "coffeeName": "Irlandês",
+      "coffeeDescription": "Bebida a base de café, uísque irlandês, açúcar e chantilly",
+      "src": "/public/image/Irlandês.png",
+      "alt": "Irlandês"
+    }
+  ]
+}

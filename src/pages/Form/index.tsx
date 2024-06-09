@@ -20,6 +20,7 @@ import {
   ContainerButton,
 } from "./style";
 import { ButtonPayments } from "../../components/ButtonPayment";
+import { CoffeeForm } from "../../components/CoffeeForm";
 
 export function Form() {
   return (
@@ -71,12 +72,13 @@ export function Form() {
           </Payment>
         </div>
 
-        {/* <div>
+        <div>
         <TextCard>Cafés selecionados</TextCard>
         <CoffeSelected>
-
+          <CoffeeForm/>
+          <CoffeeForm/>
         </CoffeSelected>
-        </div>*/}
+        </div>
       </ContainerPayment>
     </Container>
   );

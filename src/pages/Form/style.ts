@@ -8,7 +8,7 @@ export const ContainerPayment = styled.div`  //form aq
   height: 80vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin-top: 2.5rem;
   gap: 36px;
 `
 export const FormAdress = styled.form` //div aq
@@ -29,6 +29,11 @@ export const CoffeSelected = styled.div`
   width: 28rem;
   height: 31.125rem;
   background: ${props => props.theme["base-card"]};
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 2.5rem;
   border-top-right-radius: 30px;
   border-bottom-left-radius: 30px;
 `
