@@ -36,7 +36,7 @@ export const Value = styled.p`
   `
 export const Input = styled.input`
     width: 4.5rem;
-    
+    text-align: center;
     height: 2rem;
     background: ${props => props.theme["base-input"]};
     border: 1.5px solid ${props => props.theme["base-button"]};

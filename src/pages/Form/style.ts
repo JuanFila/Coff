@@ -27,13 +27,13 @@ export const TextCard = styled.p`
 `
 export const CoffeSelected = styled.div`
   width: 28rem;
-  height: 31.125rem;
+  height: auto;
+  max-height: 37rem;
   background: ${props => props.theme["base-card"]};
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding-top: 2.5rem;
+  align-items: center;
+  padding: 2.5rem 0;
   border-top-right-radius: 30px;
   border-bottom-left-radius: 30px;
 `
@@ -119,3 +119,15 @@ export const ContainerButton = styled.div`
     gap: 12px;
 
 `
+export const ButtonFinished = styled.button`
+  background: ${props => props.theme["yellow"]};
+  font-size: 0.875rem;
+  padding: 0.75rem 7.34rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: ${props => props.theme["white"]};
+  margin-top: 2.25rem;
+`
+

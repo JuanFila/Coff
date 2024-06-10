@@ -18,9 +18,11 @@ import {
   DescriptionEndereço,
   Payment,
   ContainerButton,
+  ButtonFinished,
 } from "./style";
 import { ButtonPayments } from "../../components/ButtonPayment";
 import { CoffeeForm } from "../../components/CoffeeForm";
+import { TextValueCoffees } from "../../components/TextValueCoffes";
 
 export function Form() {
   return (
@@ -76,7 +78,10 @@ export function Form() {
         <TextCard>Cafés selecionados</TextCard>
         <CoffeSelected>
           <CoffeeForm/>
-          <CoffeeForm/>
+          <TextValueCoffees color={true} size={true} text="Teste" value="9,99" bold={false}/>
+          <TextValueCoffees color={true} size={true} text="Teste" value="9,99" bold={false}/>
+          <TextValueCoffees color={false} size={false} text="Teste" value="9,99" bold={true}/>
+          <ButtonFinished>Confirmar pedido</ButtonFinished>
         </CoffeSelected>
         </div>
       </ContainerPayment>
