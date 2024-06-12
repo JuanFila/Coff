@@ -20,7 +20,7 @@
       "price": "9,90",
       "coffeeName": "Expresso Americano",
       "coffeeDescription": "Expresso diluído, menos intenso que o tradicional",
-      "src": "/public/image/Type=Americano.png",
+      "src": "/public/image/Americano.png",
       "alt": "Expresso Americano"
     },
     {
@@ -31,7 +31,7 @@
       "price": "9,90",
       "coffeeName": "Expresso Cremoso",
       "coffeeDescription": "Café expresso tradicional com espuma cremosa",
-      "src": "/public/image/Type=ExpressoCremoso.png",
+      "src": "/public/image/ExpressoCremoso.png",
       "alt": "Expresso Cremoso"
     },
     {

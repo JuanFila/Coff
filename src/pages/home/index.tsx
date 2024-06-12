@@ -1,4 +1,3 @@
-import { Header } from "../../components/header";
 import CoffeeImage from "../../assets/Coffee.svg";
 import { Tag } from "../../components/Tags";
 import {
@@ -29,7 +28,6 @@ export function Home() {
 
   return (
     <Container>
-      <Header />
       <ContainerSection>
         <ContentText>
           <h1>Encontre o café perfeito para qualquer hora do dia</h1>

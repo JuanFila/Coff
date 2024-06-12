@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+interface ColorContainerIcon {
+  BoxColor: "purple-dark" | "yellow" | "yellow-dark";
+}
+
 export const Container = styled.div`
   flex: 1; 
 `
@@ -24,12 +28,15 @@ export const InformationBox = styled.div`
   background-origin: border-box;
   background-clip: content-box, border-box;
   
+  
   >div{
     display: flex;
     gap: 12px;
-    padding: 2.5rem 2.8125rem;
+    padding: 0 2.8125rem;
+    margin-top: 2.5rem;
   }
 `
+
 export const ContainerImage = styled.div`
  width: 32.75rem;
  height: auto;
@@ -38,6 +45,7 @@ export const ContainerImage = styled.div`
 export const Info = styled.div`
   width: 32.875rem;
   height: 16.875rem;
+
 
   h2 {
     font-size: 2rem;
@@ -51,14 +59,12 @@ export const Text = styled.div`
     color: ${props => props.theme["base-subtitle"]};
     margin-bottom: 2.5rem;  
 `
-export const Icon = styled.div`
-    width: 2rem;
-    height: 2rem;
-    border-radius: 50%;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: ${props => props.theme["purple-dark"]};
-   
+export const Icon = styled.div<ColorContainerIcon>`
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: ${props => props.theme[props.BoxColor]};
 `

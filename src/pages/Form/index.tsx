@@ -1,5 +1,4 @@
 import { MapPinLine, CurrencyDollar } from "@phosphor-icons/react";
-import { Header } from "../../components/header";
 import {
   InputCPF,
   CoffeSelected,
@@ -27,8 +26,6 @@ import { TextValueCoffees } from "../../components/TextValueCoffes";
 export function Form() {
   return (
     <Container>
-      <Header />
-
       <ContainerPayment>
         <div>
           <TextCard>Complete seu pedido</TextCard>
